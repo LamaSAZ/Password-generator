@@ -1,0 +1,63 @@
+body {
+    background-color: #1f2937; /* لون الخلفية الداكن */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1f2937;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 450px;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+h1 span {
+    color: #4ade80; /* اللون الأخضر للنص */
+}
+
+p {
+    color: #d1d5db;
+    margin-bottom: 30px;
+}
+
+#generate-btn {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0.5px solid #374151;
+    margin: 20px 0;
+}
+
+.passwords-wrapper {
+    display: flex;
+    gap: 10px; /* مسافة بين الصندوقين */
+}
+
+.password-box {
+    background-color: #273549;
+    color: #55f991;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    flex: 1; /* يجعل الصناديق متساوية العرض */
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+}
